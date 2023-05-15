@@ -3,6 +3,7 @@
 h1, h3, marquee, a{
     font-family: 'Source Sans Pro', sans-serif;
     scale: 1;
+    text-align: center;
 }
 
 h1:hover, h3:hover {
@@ -10,7 +11,7 @@ h1:hover, h3:hover {
 }
 
 h1 {
-    margin-top: 100px;
+    padding-top: 100px;
 }
 
 button {
@@ -32,9 +33,10 @@ body {
 }
 
 .image {
-    width: 100px;
+    width: 80px;
     scale: 1;
     padding: 10px;
+    flex:1;
 }
 
 .image:hover {
@@ -53,6 +55,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: flex-end;
+    flex-wrap: wrap;
+    padding: 0 auto;
 }
 
 .credit-text {
@@ -61,4 +65,9 @@ body {
     color: grey;
     text-align: center;
     padding: 20px;
+}
+
+.result {
+    text-align: center;
+    padding: 10px;
 }
