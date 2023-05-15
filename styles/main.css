@@ -39,6 +39,7 @@ body {
 
 .image:hover {
     transform: scale(1.2);
+    flex:1;
 }
 
 .credits {
@@ -46,6 +47,12 @@ body {
     justify-content: center;
     align-items: end;
     flex: 1;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
 }
 
 .credit-text {
